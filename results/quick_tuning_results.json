@@ -1,0 +1,114 @@
+[
+  {
+    "name": "\u8f7b\u91cf\u7ea7\u914d\u7f6e",
+    "params": {
+      "name": "\u8f7b\u91cf\u7ea7\u914d\u7f6e",
+      "num_neurons": 32,
+      "hidden_dim": 64,
+      "dropout_rate": 0.2,
+      "learning_rate": 0.002,
+      "batch_size": 16,
+      "epochs": 25
+    },
+    "validation_accuracy": 0.6020539152759948,
+    "training_time": 11.962839126586914
+  },
+  {
+    "name": "\u66f4\u9ad8dropout",
+    "params": {
+      "name": "\u66f4\u9ad8dropout",
+      "num_neurons": 64,
+      "hidden_dim": 128,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.5840821566110398,
+    "training_time": 22.256671905517578
+  },
+  {
+    "name": "\u66f4\u591a\u795e\u7ecf\u5143",
+    "params": {
+      "name": "\u66f4\u591a\u795e\u7ecf\u5143",
+      "num_neurons": 128,
+      "hidden_dim": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.5776636713735558,
+    "training_time": 24.659841060638428
+  },
+  {
+    "name": "\u66f4\u6df1\u7684\u7f51\u7edc",
+    "params": {
+      "name": "\u66f4\u6df1\u7684\u7f51\u7edc",
+      "num_neurons": 64,
+      "hidden_dim": 256,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.576379974326059,
+    "training_time": 14.076244115829468
+  },
+  {
+    "name": "\u66f4\u5927batch size",
+    "params": {
+      "name": "\u66f4\u5927batch size",
+      "num_neurons": 64,
+      "hidden_dim": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.5750962772785623,
+    "training_time": 15.321677207946777
+  },
+  {
+    "name": "\u57fa\u7840\u914d\u7f6e",
+    "params": {
+      "name": "\u57fa\u7840\u914d\u7f6e",
+      "num_neurons": 64,
+      "hidden_dim": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.5725288831835686,
+    "training_time": 16.237146854400635
+  },
+  {
+    "name": "\u7ec4\u5408\u4f18\u5316",
+    "params": {
+      "name": "\u7ec4\u5408\u4f18\u5316",
+      "num_neurons": 96,
+      "hidden_dim": 192,
+      "dropout_rate": 0.4,
+      "learning_rate": 0.0005,
+      "batch_size": 48,
+      "epochs": 40
+    },
+    "validation_accuracy": 0.5712451861360719,
+    "training_time": 40.13007593154907
+  },
+  {
+    "name": "\u66f4\u5c0f\u5b66\u4e60\u7387",
+    "params": {
+      "name": "\u66f4\u5c0f\u5b66\u4e60\u7387",
+      "num_neurons": 64,
+      "hidden_dim": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.0001,
+      "batch_size": 32,
+      "epochs": 30
+    },
+    "validation_accuracy": 0.5481386392811296,
+    "training_time": 30.376227855682373
+  }
+]
